@@ -1,6 +1,6 @@
 {
-    "short_name": "GPT",
-    "name": "GPT",
+    "short_name": "GPT APP",
+    "name": "GPT TESTE APP",
     "version": "1.0.0",
     "icons": [
         {
@@ -17,5 +17,5 @@
     "start_url": "/gpt/",
     "background_color": "#ffffff",
     "display": "standalone",
-    "theme_color": "#444444"
+    "theme_color": "#ffffff"
 }
