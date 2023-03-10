@@ -7,13 +7,11 @@
             "src": "https://raw.githubusercontent.com/waltemarcarneiro/gpt/main/img/icon192.png",
             "type": "image/png",
             "sizes": "192x192"
-            "purpose": "maskable"
         },
         {
             "src": "https://raw.githubusercontent.com/waltemarcarneiro/gpt/main/img/icon512.png",
             "type": "image/png",
             "sizes": "512x512"
-            "purpose": "maskable"
         }
     ],
     "start_url": "/gpt/",
