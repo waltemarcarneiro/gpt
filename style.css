@@ -7,7 +7,7 @@ body{
 .flex-container{
 	width:300px;
 	height:100px;
-	border:2px solid #0066FF;
+	border:2px solid #ccc;
 	background: #fff;
 	margin:300px auto;
 	align-items: center;
