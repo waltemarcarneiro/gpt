@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="manifest" href="manifest.json">
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<link rel="stylesheet" href="style.css" />	
+<title>OFF-LINE</title>
+<!-- THE COLOR e ICON -->
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png"/>
+<link href='img/icon512.png' rel='icon' sizes='512x512'/>	
+<link href="img/apple-touch-icon.png" sizes="180x180" rel="apple-touch-icon"/>	
+<meta name="msapplication-TileColor" content="#ffffff"/>
+<meta content="#ffffff" name="msapplication-navbutton-color"/>
+<meta content="#ffffff" name="apple-mobile-web-app-mobile-bar-style"/>
+<meta content="#ffffff" name="theme-color"/>
+<!-- [ META TAG OGIMAGE ] -->
+<meta content="website" property="og:type"/>
+<meta content="https://raw.githubusercontent.com/waltemarcarneiro/gpt/main/img/og-image.jpg" property="og:image"/>
+<meta content="og image logo" property="og:image:alt"/>
+<meta content="Made with love" property="og:description"/>
+<meta content="Offline" property="og:site_name"/>	
+	
+<!-- JAVA SCRIPT -->
+<script type="text/javascript">
+	if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+</head>
+
+<body>
+	<div align="center" class="offline">
+
+        <img src="img/offline.png" alt="offline-image" /><br>
+        <h2>Você está offline</h2>
+        <p>Verifique a sua conexão</p>
+
+    </div>
+</body>
+</html>
