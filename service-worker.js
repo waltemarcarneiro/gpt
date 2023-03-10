@@ -28,7 +28,7 @@ self.addEventListener('fetch', function(event) {
 const CACHE_NAME = 'my-site-cache-v1';
 const urlsToCache = [
   '/',
-  '/gpt/offline.html'
+  '/offline.html'
 ];
 
 self.addEventListener('install', function(event) {
@@ -50,7 +50,7 @@ self.addEventListener('fetch', function(event) {
         return fetch(event.request);
       })
       .catch(function() {
-        return caches.match('/gpt/offline.html');
+        return caches.match('/offline.html');
       })
   );
 });
